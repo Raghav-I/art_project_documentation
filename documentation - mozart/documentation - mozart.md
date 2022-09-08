@@ -758,7 +758,7 @@ VQGAN, as initially elaborated in the research paper, ["Taming Transformers"](ht
 
 The ability to input the picture data directly into the transformer via the codebook encoding sequence autoregressively is the key innovation of VQGAN and what makes it so fascinating. In actual use, the transformer learns how to predict the distribution of the next token based on a sequence of previous tokens by being trained on a succession of quantized tokens supplied from the codebook in an autoregressive manner.
 
-<img src="https://www.researchgate.net/profile/Chavdar-Alexandrov/publication/320564070/figure/fig3/AS:667605534773249@1536180971382/Moving-Sliding-Window-Algorithm-diagram-using-3X3-pixel-area-The-algorithm-for-Mean.ppm" alt="img"  />
+![img](https://www.researchgate.net/profile/Chavdar-Alexandrov/publication/320564070/figure/fig3/AS:667605534773249@1536180971382/Moving-Sliding-Window-Algorithm-diagram-using-3X3-pixel-area-The-algorithm-for-Mean.ppm)
 
 ​                                                                                            [*Working of a sliding-window with image data*](https://www.researchgate.net/profile/Chavdar-Alexandrov/publication/320564070/figure/fig3/AS:667605534773249@1536180971382/Moving-Sliding-Window-Algorithm-diagram-using-3X3-pixel-area-The-algorithm-for-Mean.ppm)   
 
