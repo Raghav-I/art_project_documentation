@@ -718,7 +718,7 @@ In order to foster user creativity, [ArtBreeder](https://arxiv.org/ftp/arxiv/pap
 
 
 
-### [BigSleep]([https://github.com/lucidrains/big-sleep)
+### [BigSleep](https://github.com/lucidrains/big-sleep)
 
 Made by combining OpenAI’s CLIP and BigGAN, BigSleep is an open source python-based model that can be used by any GPU owner. Many users of BigSleep discuss about its functioning and the interesting images it generates on the [r/bisleep subreddit](https://www.reddit.com/r/bigsleep/).
 
