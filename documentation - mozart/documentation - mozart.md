@@ -1,6 +1,6 @@
 # Significance of Art
 
-Since prehistoric times, human beings have closely linked any and all forms of their work with some sort of artistic interpretation. Art, in all of its forms, plays a major role in how humans see and interact with each other and their environment. The earliest known examples of art are [dated to 30000 BP](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2815939/), during the later stone age. This implies how art, in all its forms, allows us to express ourselves and take in perspectives that cannot be expressed via words.
+Since prehistoric times, human beings have closely linked any and all forms of their work with some sort of artistic interpretation. Art, in all of its forms, plays a major role in how humans see and interact with each other and their environment. The earliest known examples of art are [dated to 30000 BP](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2815939/), during the later stone age. This implies how art, in all its forms, allows humans to express themselves and take in perspectives that cannot be expressed via words.
 
 Ever since its inception, art has crossed any and all limitations, from physical to intangible forms, i.e., people of all cultures, races, and ethnicities have some form of message or interpretation of any kind of artwork in their respective culture. Art has not only influenced aesthetes and artists to make more of it but has also helped record major historic events and narratives of the past, that would otherwise be long lost to trivial human wars and natural calamities.
 
@@ -360,7 +360,7 @@ In generative modelling, [tractability](https://arxiv.org/pdf/1905.07026.pdf) an
 ## Latent Spaces
 
 [Latent spaces](https://arxiv.org/pdf/2112.04895.pdf) are described as abstract, multidimensional spaces that store significant internal representations of events that have been experienced externally. In the latent space, samples that are comparable in the real world are situated close to one another.
-Since each witnessed event is stored in a condensed picture in the brain, human beings are able to comprehend a wide range of subjects. For instance, they don't remember every nuance of a cat's appearance such that we can spot one in the street. They maintain an internal model of a cat's typical appearance. Latent space seeks to give a computer a grasp of a wide range of topics and the events associated with those topics comparable to how humans do so, through a quantitative spatial representation or modelling.
+Since each witnessed event is stored in a condensed picture in the brain, human beings are able to comprehend a wide range of subjects. For instance, they don't remember every nuance of a cat's appearance such that one can be spot on the street. They maintain an internal model of a cat's typical appearance. Latent space seeks to give a computer a grasp of a wide range of topics and the events associated with those topics comparable to how humans do so, through a quantitative spatial representation or modelling.
 Because learning the characteristics of data and streamlining data representations with the intention of identifying patterns are at the heart of deep learning, the concept of latent spaces is crucial. The reason to learn a latent space over seen data (a series of events) is that significant differences in observed space or events may be caused by minute alterations in latent space (for the same topic). Since seen data itself is a very large area to learn from, learning a latent space would help the model make sense of observed data more effectively.
 
 
@@ -374,7 +374,7 @@ The practice of encoding information using fewer bits than the original represen
 ​																				                   	[*Illustration of compressed data*](https://miro.medium.com/max/578/0*zG3k_ciZomNRaO-K.jpg)
 
 For example, if a [fully convolutional neural network (FCN)](https://arxiv.org/pdf/1411.4038.pdf) is required to be trained to classify an image (that is, produce a digit number given a digit image), edges, angles, and other features are just learned at each layer as the model "learns" by associating a set of features with a certain output.
-However, the dimensionality of the image is initially decreased before it is finally enhanced each time the model learns from a data point. This is a type of lossy compression as the dimensionality is decreased. The model must learn to save all pertinent information and ignore noise because it must later recover the compressed data. The benefit of compression is that it enables us to eliminate any unnecessary data and concentrate solely on the most crucial elements. The Latent Space Representation of data is what is meant by this "compressed state."
+However, the dimensionality of the image is initially decreased before it is finally enhanced each time the model learns from a data point. This is a type of lossy compression as the dimensionality is decreased. The model must learn to save all pertinent information and ignore noise because it must later recover the compressed data. The benefit of compression is that it enables the user to eliminate any unnecessary data and concentrate solely on the most crucial elements. The Latent Space Representation of data is what is meant by this "compressed state."
 
 If the original dataset contains pictures with the dimensions [5 x 5 x 1](https://miro.medium.com/max/216/0*rZn-ksyRTUpDUxh7), then the compressed data point is a 3-dimensional [vector](https://library.leeds.ac.uk/info/14012/mathematics/60/vectors) since the latent space dimensions are set to [3 x 1](https://miro.medium.com/max/37/0*GRY4C_Ov5RYMn6Vi).
 
@@ -555,7 +555,7 @@ A model created for one task is used as the basis for another using the machine 
 
 Transfer learning is not just a topic for deep learning research; it also deals with issues like [concept drift](https://arxiv.org/pdf/2004.05785.pdf) and [multi-task learning](https://arxiv.org/pdf/2009.09796.pdf). Transfer learning, however, is often used in deep learning due to the substantial resources needed to train deep learning models or the big and difficult datasets that deep learning models are trained on. Only general model characteristics that were learnt from the initial task can be used for transfer learning in deep learning. Transfer learning is frequently used in computer vision and natural language processing applications like [sentiment analysis](https://arxiv.org/ftp/arxiv/papers/2006/2006.03541.pdf) because to the enormous amount of CPU power that is needed.
 
-Layered architectures used in deep learning systems enable the learning of various features at various layers. Higher-level characteristics are compiled at the network's outermost layers, and as we move deeper into the network, they get more precise.
+Layered architectures used in deep learning systems enable the learning of various features at various layers. Higher-level characteristics are compiled at the network's outermost layers, and as the network gets deeper, they get more precise.
 
 To obtain the final output, these layers are eventually linked to the final layer, which is often a completely connected layer in the case of supervised learning. This makes it possible to use well-known pre-trained networks, such as the [Oxford VGG Model](https://www.robots.ox.ac.uk/~vgg/research/very_deep/), [Google Inception Model](https://cloud.google.com/tpu/docs/inception-v3-advanced), and [Microsoft ResNet Model](https://www.microsoft.com/en-us/research/blog/microsoft-vision-model-resnet-50-combines-web-scale-data-and-multi-task-learning-to-achieve-state-of-the-art/) for additional tasks without relying on their last layer as a fixed feature extractor.
 
@@ -621,7 +621,7 @@ Transfer learning may help to create expert models for some issues where there i
 
 ### Style Transfer
 
-A computer vision method called [style transfer](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) enables us to recompose one image's content in the manner of another. It makes hypothetical concepts, such as what a photograph could be like if it were painted by a well-known artist, a reality. 
+A computer vision method called [style transfer](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) enables to recompose one image's content in the manner of another. It makes hypothetical concepts, such as what a photograph could be like if it were painted by a well-known artist, a reality. 
 Style transfer is the process of combining two images - a content picture and a style reference image - so that the final output image keeps the essential components of the content image while also seeming to have been "painted" in the manner of the style reference image.
 
 <img src="https://production-media.paperswithcode.com/thumbnails/task/task-0000000002-6ec5afb9.jpg" alt="img" style="zoom: 80%;" />
@@ -633,7 +633,7 @@ Style transfer is the process of combining two images - a content picture and a 
 In the larger area of [non-photorealistic rendering](https://www.researchgate.net/publication/236973460_Non-Photorealistic_Rendering#read), style transfer is an example of picture stylization, an image processing and editing approach that has been researched for many years. 
 An original image and an artistic rendition of that original image are needed for style transfer in a conventional supervised learning technique. A machine learning model can then use the transformation on fresh original photos after learning it.
 
-Due of the rarity of certain picture combinations, this strategy is mostly unfeasible. [Neural style transfer (NST)](https://arxiv.org/pdf/1508.06576.pdf), a novel method, has altered what is achievable recently. Deep neural networks are used by NST to drive these transitions. In order to measure the effectiveness of the style transfer without the usage of explicit picture pairs, neural networks are utilized to extract statistical aspects of images that are connected to content and style. Using this enhanced method, the neural network can apply the learned style representation to original content pictures with just one style reference image.
+Due of the rarity of certain picture combinations, this strategy is mostly unfeasible. Neural Style Transfer, a novel method, has altered what is achievable recently. Deep neural networks are used by NST to drive these transitions. In order to measure the effectiveness of the style transfer without the usage of explicit picture pairs, neural networks are utilized to extract statistical aspects of images that are connected to content and style. Using this enhanced method, the neural network can apply the learned style representation to original content pictures with just one style reference image.
 NST's early version, though, were not without flaws. In order to execute style transfer on a single image, the challenge was approached as an optimization problem that required hundreds or thousands of repetitions. [Fast neural style transfer](https://cs.stanford.edu/people/jcjohns/eccv16/) is a method that researchers devised to address this inefficiency. While using deep neural networks, fast style transfer trains a separate model that can alter any picture in a single feed-forward pass. Instead of using hundreds of iterations via the network, trained models can stylize any image. Modern-day style transfer models even have the capability of learning to imprint several styles using a single model, allowing for the creative editing of a single input content image in an almost limitless number of ways.
 
 
@@ -660,7 +660,7 @@ Convolutional neural network (CNN) variants serve as the foundation for deep lea
 
   The pre-trained feature extractor is first applied to one or more style pictures, and the outputs at different style layers are stored for further comparison. The machine is then given content pictures. The pre-trained feature extractor runs through each content picture, saving results at different content layers. The transfer network then generates a stylized version of the content picture. The feature extractor is likewise applied to the styled picture, and outputs at the content and style layers are stored.
 
-  The unique loss function that determines the stylized image's quality includes keywords for both content and style. While the extracted style aspects are contrasted with those from the reference style picture, the content features from the stylized image are compared to the original content image (s). Only the transfer network is updated following each step. The pre-trained feature extractor's weights remain constant throughout. We may train models to generate output pictures with lighter or greater stylization by weighing the various elements of the loss function.
+  The unique loss function that determines the stylized image's quality includes keywords for both content and style. While the extracted style aspects are contrasted with those from the reference style picture, the content features from the stylized image are compared to the original content image (s). Only the transfer network is updated following each step. The pre-trained feature extractor's weights remain constant throughout. Models can be trained to generate output pictures with lighter or greater stylization by weighing the various elements of the loss function.
 
   
 
@@ -696,7 +696,7 @@ Much to the credit of features like style transfer, image generation via text pr
 
 ### [Dall-E 2](https://openai.com/dall-e-2/)
 
-Based off and trained upon the large number of parameters used in GPT-3, [Dall-E 2](https://arxiv.org/pdf/2204.06125.pdf) is Dall-E's successor, a model from OpenAI. [Wall-E](https://www.pixar.com/feature-films/walle), a Pixar sci-fi movie, and [Salvador Dali](https://www.theartstory.org/artist/dali-salvador/) (a Spanish artist renowned for his surrealistic style in his paintings) are combined to form the moniker Dall-E. The model is used to produce photorealistic images. One of DALL-E 2's strongest tools is the paintbrush, which allows the flexibility to add elements to an image like shadows, highlights, and more. You may build complicated graphics using several layers, each of which can be adjusted with its own set of features, thanks to tools like the paintbrush.
+Based off and trained upon the large number of parameters used in GPT-3, [Dall-E 2](https://arxiv.org/pdf/2204.06125.pdf) is Dall-E's successor, a model from OpenAI. [Wall-E](https://www.pixar.com/feature-films/walle), a Pixar sci-fi movie, and [Salvador Dali](https://www.theartstory.org/artist/dali-salvador/) (a Spanish artist renowned for his surrealistic style in his paintings) are combined to form the moniker Dall-E. The model is used to produce photorealistic images. One of DALL-E 2's strongest tools is the paintbrush, which allows the flexibility to add elements to an image like shadows, highlights, and more. One may build complicated graphics using several layers, each of which can be adjusted with its own set of features, thanks to tools like the paintbrush.
 
 <img src="https://cdn.openai.com/dall-e-2/demos/inpainting/flamingo_pool/a/2.jpg" alt="img" style="zoom: 33%;" />
 
@@ -704,7 +704,7 @@ Based off and trained upon the large number of parameters used in GPT-3, [Dall-E
 
 ### [DeepDream Generator](https://deepdreamgenerator.com/)
 
-[DeepDream](https://www.tensorflow.org/tutorials/generative/deepdream), one of the most well-known AI art generators on the market, is an online model that enables you to use AI to produce dreamy/hallucinatory visuals. A neural network that was trained using billions of photos is what is used by DeepDream. It is simple to use, all that is required to do is submit one image, and the application will create a new image based on that one. Since Deep Dream employs several painting techniques to produce images that seem to be from various locations or eras, using it to make artwork is one of its primary purposes. To ask the network to amplify the patterns it notices in a given image is the fundamental idea behind DeepDream, which leads to the production of a psychedelic output of the image. There are three main tools with Deep Dream: Deep Style, Thin Style, or Deep Dream. A preview of the result is displayed after selecting a style.
+[DeepDream](https://www.tensorflow.org/tutorials/generative/deepdream), one of the most well-known AI art generators on the market, is an online model that enables anyone to use AI to produce dreamy/hallucinatory visuals. A neural network that was trained using billions of photos is what is used by DeepDream. It is simple to use, all that is required to do is submit one image, and the application will create a new image based on that one. Since Deep Dream employs several painting techniques to produce images that seem to be from various locations or eras, using it to make artwork is one of its primary purposes. To ask the network to amplify the patterns it notices in a given image is the fundamental idea behind DeepDream, which leads to the production of a psychedelic output of the image. There are three main tools with Deep Dream: Deep Style, Thin Style, or Deep Dream. A preview of the result is displayed after selecting a style.
 
 <img src="https://www.garysnotebook.com/images/20190826_1/ovejas.png" alt="img" style="zoom:67%;" />
 
@@ -758,7 +758,7 @@ VQGAN, as initially elaborated in the research paper, ["Taming Transformers"](ht
 
 The ability to input the picture data directly into the transformer via the codebook encoding sequence autoregressively is the key innovation of VQGAN and what makes it so fascinating. In actual use, the transformer learns how to predict the distribution of the next token based on a sequence of previous tokens by being trained on a succession of quantized tokens supplied from the codebook in an autoregressive manner.
 
-![img](https://www.researchgate.net/profile/Chavdar-Alexandrov/publication/320564070/figure/fig3/AS:667605534773249@1536180971382/Moving-Sliding-Window-Algorithm-diagram-using-3X3-pixel-area-The-algorithm-for-Mean.ppm)
+<img src="https://blog.paperspace.com/content/images/2021/10/Screen-Shot-2021-10-18-at-5.54.44-PM.png" alt="How I Made this Article's Cover Photo with VQGAN-CLIP" style="zoom: 25%;" />
 
 ​                                                                                            [*Working of a sliding-window with image data*](https://www.researchgate.net/profile/Chavdar-Alexandrov/publication/320564070/figure/fig3/AS:667605534773249@1536180971382/Moving-Sliding-Window-Algorithm-diagram-using-3X3-pixel-area-The-algorithm-for-Mean.ppm)   
 
@@ -793,17 +793,133 @@ As a result of the significantly reduced data size, working in such a condensed 
 
 
 
-The initial image, X, will be encoded into a space called the latent space, Z, which is information-dense. This is how the overall model will appear. This can be thought of as a downsampling task where you take an image and use an encoder model to extract the most important information about it in a sub-space. This is quite similar to a GAN. maintaining as much information as possible while reducing its size.
+The initial image, X, will be encoded into a space called the latent space, Z, which is information-dense. This is how the overall model will appear. This can be thought of as a downsampling task where an image can be taken and an encoder model can be used to extract the most important information about it in a sub-space. This is quite similar to a GAN. maintaining as much information as possible while reducing its size.
 
-The condensed input are currently in the latent space. Then, using [attention](https://www.frontiersin.org/articles/10.3389/fnins.2017.00468/full) the same thing is done with conditioning inputs, whether text, images, or anything else, and integrate them with an existing image representation. The ideal approach to mix the input and conditioning inputs in this latent space will be discovered by this attention process. giving diffusion models more focus, a transformer feature. You now have your initial noise for the diffusion process from these combined inputs. The image is finally recreated using a decoder, which may be thought of as the opposite procedure from your initial encoder, essentially upsampling the output by using this updated and de-noised input in the latent space to create a final high-resolution image. Using the most recent stable diffusion open-sourced model, diffusion models can be used for a range of tasks including super-resolution, inpainting, and even text-to-image while being far more efficient.
+The condensed input are currently in the latent space. Then, using [attention](https://www.frontiersin.org/articles/10.3389/fnins.2017.00468/full) the same thing is done with conditioning inputs, whether text, images, or anything else, and integrate them with an existing image representation. The ideal approach to mix the input and conditioning inputs in this latent space will be discovered by this attention process. giving diffusion models more focus, a transformer feature. The initial noise for the diffusion process from these combined inputs is now available. The image is finally recreated using a decoder, which may be thought of as the opposite procedure from the initial encoder, essentially upsampling the output by using this updated and de-noised input in the latent space to create a final high-resolution image. Using the most recent stable diffusion open-sourced model, diffusion models can be used for a range of tasks including super-resolution, inpainting, and even text-to-image while being far more efficient.
 
-The art generation section in Mozart is entirely based on latent diffusion, which presently uses [LAION-400M dataset](https://laion.ai/blog/laion-400-open-dataset/), which has 400 million image-text pairs that have been CLIP-filtered, together with their CLIP embeddings and [kNN indices](https://arxiv.org/pdf/1807.02962.pdf) for effective similarity search, to generate art that satisfies the prompt given via text.
-
-
+The art generation section in Mozart is entirely based on [latent diffusion](https://colab.research.google.com/github/multimodalart/latent-diffusion-notebook/blob/main/Latent_Diffusion_LAION_400M_model_text_to_image.ipynb), which presently uses [LAION-400M dataset](https://laion.ai/blog/laion-400-open-dataset/), which has 400 million image-text pairs that have been CLIP-filtered, together with their CLIP embeddings and [kNN indices](https://arxiv.org/pdf/1807.02962.pdf) for effective similarity search, to generate art that satisfies the prompt given via text.
 
 
 
-## Neural Style Transfer - TensorFlow Hub
 
 
+## [Neural Style Transfer - TensorFlow Hub](https://www.tensorflow.org/tutorials/generative/style_transfer)
+
+A style reference image (such as a piece of art by a well-known painter) and a content image are combined using the optimization approach known as [Neural Style Transfer](https://arxiv.org/pdf/1508.06576.pdf) to create an output image that resembles the content image but has been "painted" in the manner of the style reference image. The Style Transfer feature in Mozart uses the [open source model of Neural Style Transfer on TensorFlow Hub](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/style_transfer.ipynb), to have the right blend of a style in the content image, without losing the quality of the content image.
+
+Giving the Deep Learning model the capacity to distinguish between style representations and content images is the goal of neural style transfer. To transfer style from one picture to another and create a new image with the features to add by choice, NST uses a pre-trained Convolutional Neural Network with additional loss functions. 
+In order for style transfer to work, the neurons must be activated in a specific way, resulting in an output image and content image that are particularly similar in terms of content, while the style image and the desired output image should be similar in terms of texture and capture characteristics of the same style in the activation maps. How much is the style reconstruction and content reconstruction valued can be chosen by combining these two objectives into a single loss function.
+
+The output image for the neural style transfer paper is produced using feature maps produced by intermediary layers of the [VGG-19 network](https://iq.opengenus.org/vgg19-architecture/). This design saves the features derived from the convolution layers of the VGG network using style and content pictures as input.
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200823113126/vgg19-architecture.png" alt="img" style="zoom: 50%;" />
+
+The model cannot understand the images on its own. These must be transformed into raw pixels and provided to the model, which uses convolutional neural networks to turn the raw pixels into a set of features.
+As a result, the model functions as a complicated feature extractor halfway between the layers where the picture is supplied into the model and the layers that deliver the output. The model's intermediate layers are all that are needed to employ to characterize the content and aesthetic of the input images. The input picture is changed into representations that focus more on the image's content than on its precise pixel values. The properties obtained from the higher layers of the model may be seen as being more closely tied to the image's content. The correlation between several filter responses is used to reflect the style of a reference image.
+
+
+
+### Loss Functions
+
+The effectiveness of a algorithm in modelling a dataset may be assessed using a loss function. The loss function will produce a larger value if all predictions  were wrong. It will produce a lower number if they're quite excellent. With respect to Neural Style Transfer, there are two primary loss functions. The content loss function makes sure that the upper layers of the produced picture and the content image have comparable activations. The style loss function guarantees that there is a comparable correlation of activations across all layers between the style picture and the produced image.
+
+
+
+### Content Loss
+
+Establishing commonalities between the produced picture and the content image is helpful. Naturally, higher layers of the model would concentrate more on the characteristics already existing in the image, or the image's overall content. The Euclidean distance between the intermediate higher-level feature representations of the input picture (*x*) and the content image (*p*) at layer l is used to determine content loss.
+
+![Content loss formula](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/613ebc7136aa8c7496734312_56ROWESLNXGVVcGPVUcAe14Jsvs57Pgw09cPjgkTcUGRTWgYHaSZNKA0dbuRRprg_ikMM3Bxx972m0ibc0D1ow9cfGWrxXk9jQ-g0Zlj7MA9RE_j5uoxTVn-dVj-5T3s6KtQHubg%3Ds0.png)
+
+It is common for a model to output several feature maps in higher layers when various objects are present. This enables to draw the conclusion that images with similar content ought to have comparable activations in higher layers. 
+
+
+
+### Style Loss
+
+Conceptually, style loss and content loss are two separate things. The style loss cannot be determined by just comparing the intermediate aspects of the two photos. For this reason Gram matrices are used, which display the general distribution of features in a certain layer, can be used to analyze the style information in a picture. It is determined by how closely the feature mappings in a particular layer correlate with one another. The distance between the gram matrices, or style representation, of the produced picture and the style reference image is used to compute the style loss.
+
+The following formula is used to determine the contribution of each layer in the style information:
+
+![ contribution of each layer in the style information formula](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/613ebc7136aa8c7488734313_khncG_qMQ3Yu5DR3zxgRLBxHQLsopZl-C-xvlIu32aetMVsnL1lxcR62LSzhXmZnTOH74GZeYPSA4bNXtZ6-_SnS8mtoQzHAJH_jfuMmI28W3CuDkHWlXXROcdvXStqYpvEMJ7eR%3Ds0.png)
+
+As a result, the overall style loss for each layer is expressed as follows:
+
+![Total style loss formula](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/613ebc723ae59bd6043998c2_-s3RqIoVoQSgqbrHve0_PXFHkUF5UFXbveiAvIXZFUk_qkV5MC7bUgddT7s5hixKx52d_5j7x1uQJ2ixy6k8KfIqeaNaSuvFgYB-khwJnrhgnyJtz5Ju7mom7jF04HP7c7Tf8Zvn%3Ds0.png)
+
+where a factor *wl* represents how each layer contributed to the style loss.
+
+
+
+
+
+## SRGAN for Super Resolution
+
+Image Super Resolution is the process of increasing an image's resolution from low resolution (LR) to high resolution (HR).  The pixel disparity between anticipated and output HR pictures is optimized using a variety of machine learning techniques. Although this measure functions well, it is not ideal since humans discriminate pictures based on perceptual quality rather than pixel difference. In Mozart, the [Super-Resolution Generative Adversarial Network (SRGAN)](https://arxiv.org/pdf/1609.04802.pdf) aims to enhance perceptual quality to enhance images and make their quality pleasing to the eye.
+
+
+
+### Architecture
+
+The generator architecture, which is used to produce excellent super-resolution pictures, is essentially a fully convolutional [SRRESNET model](https://github.com/twtygqyy/pytorch-SRResNet). The discriminator model, which serves as an image classifier, is added to the architecture to make sure that it adapts generally to the picture quality and produces far more ideal images. The SRGAN architecture produces natural visuals with excellent perceptual quality that appear believable.
+
+<img src="https://raw.githubusercontent.com/tensorlayer/srgan/master/img/model.jpeg" alt="Model Zoo - SRGAN TensorFlow Model" style="zoom: 33%;" />
+
+
+
+#### Generator Architecture
+
+<img src="https://blog.paperspace.com/content/images/2021/11/image-1.png" alt="img" style="zoom: 50%;" />
+
+The low-resolution input is sent via a [Parametric ReLU](https://arxiv.org/pdf/1502.01852.pdf) layer after a first convolutional layer made up of 9x9 kernels and 64 feature maps. This is how the SRRESNET generating network is constructed. It is clear that the Parametric ReLU serves as the main activation function across the whole generator design. Because it is one of the finest non-linear functions for this specific purpose of translating low-resolution photos to high-resolution images, the Parametric ReLU was chosen.
+
+The following task can also be accomplished using an activation function like ReLU, although there may be complications because of the idea of dead neurons when values less than zero are mapped straight to zero. Leaky ReLU is another choice, which maps values less than zero to a user-specified integer. However, using parametric ReLU, the neural network can be allowed to select the optimal value on its own, making it the preferred option in this circumstance.
+
+A large number of residual blocks are used in the next layer of the feed-forward fully convolutional SRRESNET model. Following a batch normalization layer, a Parametric ReLU activation function, a convolutional layer with batch normalization, another convolutional layer with batch normalization, and a final elementwise sum technique, each residual block has a convolutional layer with 3x3 kernels and 64 feature maps. The feed-forward output and the skip connection output are both used by the elementwise sum technique to produce the final output.
+
+Similar padding is used in each of the convolutional layers to prevent variations in the size of the inputs and outputs that come next. Other fully convolutional networks like the [U-Net architecture](https://arxiv.org/pdf/1505.04597v1.pdf) commonly include pooling layers for lowering the picture size. However, since the picture size does not need to be decreased, it is not necessary for SRGAN. It is somewhat the contrary, though.
+
+The remainder of the generator model is developed once the leftover blocks are created, as seen in the above graphic depiction. After the convolutional layer has been 4x upsampled, the pixel shuffler is used in this generator model architecture to create the super-resolution pictures. The pixel shufflers insert values into the height and width dimensions using values from the channel dimension. In this instance, the channel is split by two and the height and breadth are multiplied by two.
+
+
+
+#### Discriminator Architecture
+
+<img src="https://blog.paperspace.com/content/images/2021/11/image-2.png" alt="img" style="zoom:50%;" />
+
+A typical GAN technique is supported by the discriminator architecture in the best possible way. The discriminator and generator are concurrently becoming better and competing with one another. The generator tries to create realistic pictures so that it can avoid detection by the discriminator network while the discriminator network searches for the bogus images. Similar principles apply to how SRGANs operate, where the generative model *G* aims to deceive a differentiable discriminator *D* that has been taught to discern between genuine pictures and super-resolved images.
+
+In order to distinguish between the genuine images and the super-resolution images, the discriminator architecture presented is effective. The adversarial min-max problem is addressed by the discriminator model that is built. The following general principle may be used to explain the phrasing of this equation:
+
+![img](https://blog.paperspace.com/content/images/2021/11/image-5.png)
+
+The discriminator architecture that was created is highly logical and simple to comprehend. A [Leaky ReLU](https://arxiv.org/pdf/1505.00853.pdf) activation function is employed after the initial convolutional layer. For this structure, the Leaky ReLU's alpha value is set at 0.2. The batch normalization layer and the Leaky ReLU activation function are then followed by a number of convolutional layer repeating blocks. Once there are five of these repeating blocks, the thick layers and sigmoid activation function are then ready to conduct the classification operation. After two complete blocks of each, the initial beginning convolutional size of 64 x 64 is doubled by 2 until we achieve the 8x upscaling factor of 512 x 512.
+
+
+
+### Loss Functions
+
+[Perpetual loss function (L<sub>SR</sub>)](https://deepai.org/machine-learning-glossary-and-terms/perceptual-loss-function), which is used by the SRGAN, is the weighted sum of two types of loss: content loss and adversarial loss. For the generator architecture's performance, this loss is crucial.
+
+<img src="https://miro.medium.com/max/700/1*oxwNMryy3JCAM_kKHDzdPw.png" alt="img" style="zoom:150%;" />
+
+
+
+#### Content Loss: 
+
+There are two different forms of content loss: the more typical pixelwise MSE loss for picture Super Resolution and the MSE loss for the SRResnet architecture. However, high frequency material in the image cannot be handled by MSE loss, leading to the production of too smooth images.
+
+![img](https://media.geeksforgeeks.org/wp-content/uploads/20200611204717/simplecontentloss.PNG)
+
+Thus, the loss of several VGG layers is employed. The ReLU activation layers of the pre-trained 19 layer VGG network serve as the foundation for this VGG loss:
+
+![img](https://media.geeksforgeeks.org/wp-content/uploads/20200611204826/vggcontentloss.PNG)
+
+
+
+#### Adversarial Loss:
+
+By employing a discriminator that has been taught to distinguish between high resolution and super resolution pictures, the adversarial loss is the loss function that drives the generator to produce images that are more similar to high resolution images.
+
+<img src="https://miro.medium.com/max/700/1*oY7GspT47GqQZ8UJdWmnQA.png" alt="img" style="zoom: 150%;" />
 
