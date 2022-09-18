@@ -738,11 +738,27 @@ The AI [NFT](https://www.researchgate.net/publication/357900561_NFTs_Application
 
 ## In-depth Comparison with WOMBO and DALL-E
 
+### WOMBO Dream
 
 
 
 
 
+
+
+
+
+### DALL-E
+
+
+
+
+
+
+
+
+
+### Mozart
 
 
 
@@ -922,4 +938,52 @@ Thus, the loss of several VGG layers is employed. The ReLU activation layers of 
 By employing a discriminator that has been taught to distinguish between high resolution and super resolution pictures, the adversarial loss is the loss function that drives the generator to produce images that are more similar to high resolution images.
 
 <img src="https://miro.medium.com/max/700/1*oY7GspT47GqQZ8UJdWmnQA.png" alt="img" style="zoom: 150%;" />
+
+
+
+
+
+## Gradio for deploying ML Models
+
+With only a few lines of code, user-friendly, configurable UI components for machine learning models, any API, or any arbitrary function can be created using the open-source [Gradio](https://gradio.app/docs/) Python package. The URL can be shared with anyone or the GUI can be immediately integrated into a Python notebook. The GUI used in Mozart to access the features its ML models uses Gradio. 
+
+
+
+
+
+## Hugging Face
+
+[Hugging Face](https://huggingface.co/), a firm that first created a chat app for teens who were bored, offers open-source NLP technology and raised $15 million in 2020 to create a comprehensive NLP library. Hugging Face has been able to quickly advance its language processing capabilities since the launch of its chat app. The company wants to develop NLP and make it accessible to everyone. [It has a large list of models that continues to grow](https://huggingface.co/models).
+
+
+
+
+
+## Future Scope - A Full Stack Web Application
+
+
+
+
+
+
+
+
+
+# Limitations and Biases
+
+
+
+
+
+
+
+
+
+# Philosophical Prominence of Automation and Creativity
+
+
+
+
+
+# Credits and Citations
 
